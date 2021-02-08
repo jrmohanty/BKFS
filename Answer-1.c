@@ -1,11 +1,11 @@
 #include <stdio.h>
 #include <stdbool.h>
-//#include "cassert"
+//#include "cassert"  		// For generating Core Dump, but not supporting in online-GDB
 
 //Implementation of strlen()
 int my_strlen(const char *lptr){
-	//assert (lptr);
-	if(lptr == '\0')
+	//assert (lptr);	// For generating Core Dump, but not supporting in online-GDB
+	if(lptr == '\0')	// Null pointer exception handler
 	    return 0;
 	int length=0; 
 	while(*lptr++)
