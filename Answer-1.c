@@ -1,3 +1,6 @@
+//bool exists in the current C - C99,but not in C89/90.
+//And for that "#include<stdbool.h>" needs to be included.
+
 #include <stdio.h>
 #include <stdbool.h>
 //#include "cassert"  		// For generating Core Dump, but not supporting in online-GDB
