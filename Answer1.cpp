@@ -13,11 +13,11 @@ bool is_palindrome(const char str[])
     { 
         if (toupper(str[start++]) != toupper(str[end--])) 
         { 
-            //cout << str << " is not a palindrome" << endl; //Please uncomment this line to get the STD:OUT
+            cout << str << " is not a palindrome" << endl; //Please uncomment this line to get the STD:OUT
 			return false; 
         } 
     } 
-    //cout << str << " is a palindrome" << endl;            //Please uncomment this line to get the STD:OUT
+    cout << str << " is a palindrome" << endl;            //Please uncomment this line to get the STD:OUT
 	return true; 
 }
 
