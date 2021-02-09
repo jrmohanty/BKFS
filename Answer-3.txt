@@ -24,4 +24,4 @@ select id,name, marks,
 
     END "Grade"
 
-  from students
+  from students;
